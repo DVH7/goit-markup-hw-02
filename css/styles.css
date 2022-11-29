@@ -106,12 +106,16 @@ letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 600;
-    border: none;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    
 }
 .button-primary:hover,
 .button-primary:focus{
     color: var(--primary-bcg-color);;
     background-color:var(--accent-color);
+    
 }
 .team{
     color:rgba(244, 244, 253, 1) ;
@@ -122,9 +126,6 @@ letter-spacing: 0.04em;
 .cards p{
     color: var(--primary-text-color);
     font-family: inherit;  
-}
-.cards .white-text{
-    color: var(--primary-bcg-color) ;
 }
 .footer{
     background-color: var(--primary-text-color);
